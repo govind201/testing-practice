@@ -1,0 +1,32 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(js|ts)$": "babel-jest"
+    },
+    "transformIgnorePatterns": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/govind201/testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/govind201/testing-practice/issues"
+  },
+  "homepage": "https://github.com/govind201/testing-practice#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "lit": "^2.6.1"
+  }
+}
